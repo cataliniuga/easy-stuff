@@ -3,7 +3,8 @@
     "dev": "deno run -A --watch src/main.ts"
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@1",
+    "@elysiajs/swagger": "npm:@elysiajs/swagger@^1.2.0",
+    "react": "npm:react",
     "elysia": "npm:elysia@^1.2.10"
   }
 }
